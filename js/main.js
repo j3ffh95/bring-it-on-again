@@ -45,3 +45,10 @@ function myThirdFunc(day) {
 }
 //*Loops*
 //Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
+function funcFour(num) {
+  let start = 1;
+  while (start <= num) {
+    console.log(start);
+    start += 3;
+  }
+}
