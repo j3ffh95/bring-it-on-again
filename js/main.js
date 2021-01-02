@@ -25,6 +25,23 @@ function mySecondFunc(num1, num2, num3) {
   }
 }
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
-
+function myThirdFunc(day) {
+  let dayUpdate = day.toLowerCase();
+  switch (true) {
+    case dayUpdate == "saturday" || dayUpdate == "sunday":
+      alert("weekend");
+      break;
+    case dayUpdate == "monday" ||
+      dayUpdate == "tuesday" ||
+      dayUpdate == "wednesday" ||
+      dayUpdate == "thursday" ||
+      dayUpdate == "friday":
+      alert("weekday");
+      break;
+    default:
+      alert("try again!");
+      break;
+  }
+}
 //*Loops*
 //Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
