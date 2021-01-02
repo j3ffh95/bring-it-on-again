@@ -1,6 +1,7 @@
 // *Variables*
 // Declare a variable, assign it a value, and alert the value
-
+let myVar = "Hola";
+// alert(myVar);
 // Create a variable, divide it by 10, and console log the value
 
 // *Functions*
