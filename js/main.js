@@ -8,7 +8,9 @@ let finalNum = myNum / 10;
 console.log(finalNum);
 // *Functions*
 // Create a function that multiplys 3 numbers and alerts the product
-
+function multiply3Nums(num1, num2, num3) {
+  alert(num1 * num2 * num3);
+}
 // Create a function that takes in 4 numbers. Add the first two numbers and subtract the next two. Console log the result
 
 // *Conditionals*
