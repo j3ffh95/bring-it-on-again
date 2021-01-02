@@ -3,7 +3,9 @@
 let myVar = "Hola";
 // alert(myVar);
 // Create a variable, divide it by 10, and console log the value
-
+let myNum = 25;
+let finalNum = myNum / 10;
+console.log(finalNum);
 // *Functions*
 // Create a function that multiplys 3 numbers and alerts the product
 
